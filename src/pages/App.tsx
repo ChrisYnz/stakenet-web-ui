@@ -37,6 +37,7 @@ import RedirectAddWallet from './initializeWallet/AddWallet/redirects';
 import RedirectSeedPhrase from './initializeWallet/SeedPhrase/redirects'
 import RedirectUnlockWallet from './initializeWallet/UnlockWallet/redirects';
 import RedirectRestoreWallet from './initializeWallet/RestoreWallet/redirects';
+import { ConnextSwap } from './connext/ConnextSwap'
 
 const AppWrapper = styled.div`
   display: flex;
@@ -122,6 +123,7 @@ export default function App() {
               <Route exact strict path="/wallet/restore-wallet" component={RedirectRestoreWallet} />
               <Route exact strict path="/wallet/seed-phrase" component={RedirectSeedPhrase} />
               <Route exact strict path="/wallet/unlock" component={RedirectUnlockWallet} />
+              <Route exact strict path="/connext" component={ConnextSwap} />
               <Route component={RedirectPathToSwapOnly} />
             </Switch>
           </Web3ReactManager>

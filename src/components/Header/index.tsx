@@ -339,6 +339,9 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
+          <StyledNavLink id={`stake-nav-link`} to={'/connext'}>
+            Connext
+          </StyledNavLink>
           <StyledNavLink id={`stake-nav-link`} to={'/wallet'}>
             Wallet
           </StyledNavLink>

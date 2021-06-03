@@ -1,0 +1,1 @@
+export const CONNEXT_ROUTER = 'vector52rjrwRFUkaJai2J4TrngZ6doTUXGZhizHmrZ6J15xVv4YFgFC'
